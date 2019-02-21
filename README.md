@@ -1,3 +1,4 @@
-# My Awesome Book
+# 中间件技术
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+这本书是我们师生共同编辑整理的有关中间件技术方面的资料
+
