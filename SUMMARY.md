@@ -6,10 +6,11 @@
   * [中间件的发展趋势](chapter1/zhong-jian-jian-de-fa-zhan-qu-shi.md)
 * [Corba相关](corbaxiang-guan.md)
   * [Corba兴衰史](corbaxiang-guan/corbaxing-shuai-shi.md)
-* JavaEE相关
-* 微软中间件相关
+* [JavaEE相关](javaeexiang-guan.md)
+* [微软中间件相关](wei-ruan-zhong-jian-jian-xiang-guan.md)
 * Web框架
   * SSH
   * SSM
   * Python相关
+* [MOM](mom.md)
 
