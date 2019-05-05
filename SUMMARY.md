@@ -13,5 +13,6 @@
   * [SSM](ssm.md)
   * [Python相关](pythonxiang-guan.md)
 * [JavaEE相关](javaeexiang-guan.md)
+* [WebSphere MQ](websphere-mq.md)
 * [修改者](xiu-gai-zhe.md)
 
