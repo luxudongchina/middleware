@@ -30,9 +30,6 @@ realm：域，领域，相当于数据源，通过realm存取认证、授权相�
 
 iii.认证的流程
 
-  
-
-
 ![](https://img-blog.csdn.net/20181011170602710?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NpbmF0XzM0MzQxMTYy/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70 "在这里插入图片描述")
 
 1、通过ini配置文件创建securityManager
@@ -51,11 +48,21 @@ iii.认证的流程
 
 6、ModularRealmAuthenticator接收IniRealm返回Authentication认证信息。
 
+iiii.授权的流程
 
+![](https://img-blog.csdn.net/20181011170800759?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NpbmF0XzM0MzQxMTYy/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70 "在这里插入图片描述")
 
+1、对subject进行授权，调用方法isPermitted（“permission串”）。
 
+2、SecurityManager执行授权，通过ModularRealmAuthorizer执行授权。
 
+3、ModularRealmAuthorizer执行realm（自定义的Realm）从数据库查询权限数据。调用realm的授权方法：doGetAuthorizationInfo。
 
+4、realm从数据库查询权限数据，返回ModularRealmAuthorizer。
+
+5、ModularRealmAuthorizer调用PermissionResolver进行权限串比对。
+
+6、如果比对后，isPermitted中"permission串"在realm查询到权限数据中，说明用户访问permission串有权限，否则没有权限，抛出异常。
 
 
 
