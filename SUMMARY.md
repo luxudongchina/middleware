@@ -6,10 +6,14 @@
   * [中间件的发展趋势](chapter1/zhong-jian-jian-de-fa-zhan-qu-shi.md)
 * [Corba相关](corbaxiang-guan.md)
   * [Corba兴衰史](corbaxiang-guan/corbaxing-shuai-shi.md)
-* JavaEE相关
-* 微软中间件相关
-* Web框架
-  * SSH
-  * SSM
-  * Python相关
+  * [Corba介绍](corbaxiang-guan/corba.md)
+* [微软中间件相关](wei-ruan-zhong-jian-jian-xiang-guan.md)
+* [Web框架](webkuang-jia.md)
+  * [SSH](ssh.md)
+  * [SSM](ssm.md)
+  * [Python相关](pythonxiang-guan.md)
+* [JavaEE相关](javaeexiang-guan.md)
+* [WebSphere MQ](websphere-mq.md)
+* [中间件的分类](zhong-jian-jian-de-fen-lei.md)
+* [修改者](xiu-gai-zhe.md)
 
