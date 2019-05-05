@@ -6,6 +6,7 @@
   * [中间件的发展趋势](chapter1/zhong-jian-jian-de-fa-zhan-qu-shi.md)
 * [Corba相关](corbaxiang-guan.md)
   * [Corba兴衰史](corbaxiang-guan/corbaxing-shuai-shi.md)
+  * [Corba介绍](corbaxiang-guan/corba.md)
 * [微软中间件相关](wei-ruan-zhong-jian-jian-xiang-guan.md)
 * [Web框架](webkuang-jia.md)
   * [SSH](ssh.md)
