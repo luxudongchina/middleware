@@ -14,5 +14,6 @@
   * [Python相关](pythonxiang-guan.md)
 * [JavaEE相关](javaeexiang-guan.md)
 * [WebSphere MQ](websphere-mq.md)
+* [中间件的分类](zhong-jian-jian-de-fen-lei.md)
 * [修改者](xiu-gai-zhe.md)
 
