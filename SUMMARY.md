@@ -8,9 +8,9 @@
   * [Corba兴衰史](corbaxiang-guan/corbaxing-shuai-shi.md)
 * [JavaEE相关](javaeexiang-guan.md)
 * [微软中间件相关](wei-ruan-zhong-jian-jian-xiang-guan.md)
-* Web框架
-  * SSH
-  * SSM
-  * Python相关
+* [Web框架](webkuang-jia.md)
+  * [SSH](ssh.md)
+  * [SSM](ssm.md)
+  * [Python相关](pythonxiang-guan.md)
 * [MOM](mom.md)
 
